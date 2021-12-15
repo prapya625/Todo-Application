@@ -1,0 +1,77 @@
+/*  Global  */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #2196f3;
+}
+
+.container {
+  width: 35%;
+  margin: auto;
+  padding-top: 20px;
+}
+/* X Global X */
+
+
+/* Todo */
+.todo-wrapper {
+  padding: 26px 26px;
+  background: white;
+  min-height: 94vh;
+  border-radius: 5px;
+}
+
+.todo-input {
+  display: flex;
+}
+
+/* Todo Input Field */
+.todo-input input {
+  width: 100%;
+  padding: 10px 20px;
+  outline: none;
+  border: 2px solid black;
+  font-size: 15px;
+}
+
+/* Todo Add Button */
+.todo-input button {
+  background: black;
+  color: white;
+  padding: 10px;
+  outline: none;
+  border-color: black;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+/* Todo Output Wrapper */
+.todo-output {
+  padding: 20px 5px;
+}
+
+.single-output {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.output-content {
+  color: gray;
+  font-family: 'Fira Code';
+  font-weight: bold;
+}
+
+.action-btn {
+  padding: 5px 5px;
+  border: none;
+  cursor: pointer;
+  user-select: none;
+  margin-left: 7px;
+}
+
+/* X Todo X */
